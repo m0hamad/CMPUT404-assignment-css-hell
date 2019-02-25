@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+p.bod {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 32px;
+  color: black;
+  align-content: center;
+  width: 75%;
+  margin-left: 45px;
+  line-height: 1.5;
+  background: linear-gradient(-90deg, #A0A0A0, #B8B8B8, #D0D0D0, #E0E0E0);
+  background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+aside.side_bar {
+  width: 15%;
+  height: 100%;
+  right: 0;
+  margin-top: 70px;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.70);
+  position: fixed;
+  padding-right: 50px;
+  align-items: center;
+}
+
+p#sidebar_text {
+  color: #99ffd6;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+h3 {
+  color: #99ffd6;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+p#last_par {
+  margin-bottom: 65px;
+}
+
+.black_line {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 2px;
+  margin-left: 45px;
+  align-items: center;
+  width: 75%;
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px;
+  background: linear-gradient(-90deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  border-radius: 50%;
+}
+
+.black_line#first_one {
+  align-items: center;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 2px;
+  margin-left: 45px;
+  width: 75%;
+  margin-top: 87px;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+/*
+** no underline source: /*
+** font-weight source: https://www.w3schools.com/cssref/pr_font_weight.asp
+** rgba source: https://www.w3schools.com/cssref/pr_font_weight.asp
+**
+*/
+a#home{
+  text-decoration: none;
+  padding-right: 8px;
+  padding-left: 8px;
+  color: white;
+}
+
+a#home:hover {
+  color: yellow;
+}
+
+/*
+** Changing font size for nested tag: https://stackoverflow.com/questions/41883489/nested-span-inside-a-p-tag-giving-different-font-size/41883589
+*/
+a.menu {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 40px 0;
+  right: 0;
+  color: silver;
+  position: fixed;
+}
+
+a.menu:hover {
+  color: #00e68a;
+}
+
+a#p_h {
+  margin-right: 270px;
+}
+
+a#skill {
+  margin-right: 188px;
+}
+
+.whitened {
+  color: white;
+}
+
+a#end {
+  margin-right: 97px;
+}
+
+/*
+** Gradient background: https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
+*/
+body {
+  background: black;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background: black;
+  color: white;
+  height: 75px;
+  position: fixed;
+  font-family: monospace, fantasy;
+  font-weight: 700;
+  text-align: center;
+  font-size: 42px;
+  left: 0;
+  top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+footer#bottom {
+  background: black;
+  padding-top: 10px;
+  position: relative;
+  width: 103%;
+  height: 2.5rem;
+  margin: -3rem;
+  border-top: 2px solid white;
+}
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+  margin-left: 65px;
+  width: 75%;
+}
+
+#profile_pic {
+  height: 60px;
+  z-index: 1000;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+#email {
+  text-decoration: none;
+  margin-left: 450px;
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+}
+
+#github_image {
+  height: 40px;
+  width: 40px;
+}
+
+#github {
+  text-decoration: none;
+  margin-left: 550px;
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+}
+
+#email:hover {
+  text-decoration: underline;
+  color: #99ffd6;
+}
+
+#github:hover {
+  text-decoration: underline;
+  color: #99ffd6;
+}
+
+#me_lol {
+  float: right;
+  border-radius: 2px;
+}
