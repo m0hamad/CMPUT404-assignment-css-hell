@@ -9,7 +9,7 @@ p.bod {
   width: 75%;
   margin-left: 45px;
   line-height: 1.5;
-  background: linear-gradient(-90deg, #A0A0A0, #B8B8B8, #D0D0D0, #E0E0E0);
+  background: linear-gradient(-45deg, #A0A0A0, #B8B8B8, #D0D0D0, #E0E0E0);
   background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -67,7 +67,7 @@ p#last_par {
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
-  border-radius: 50%;
+  border-radius: 1%;
 }
 
 .black_line#first_one {
